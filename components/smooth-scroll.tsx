@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect } from 'react'
+import * as React from "react"
 
 export function SmoothScroll() {
-  useEffect(() => {
+  React.useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       const target = e.target as HTMLAnchorElement
       if (target.hash) {
