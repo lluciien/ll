@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ThemeToggle } from '@/components/theme-toggle'
-import { Gallery } from '@/components/gallery'
-import { Timeline } from '@/components/timeline'
-import { SmoothScroll } from '@/components/smooth-scroll'
+import { ThemeToggle } from '../components/theme-toggle';
+import { Gallery } from '../components/gallery';
+import { Timeline } from '../components/timeline';
+import { SmoothScroll } from '../components/smooth-scroll';
 
 export default function Home() {
   return (
